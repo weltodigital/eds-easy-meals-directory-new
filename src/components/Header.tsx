@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 
 export default function Header() {
@@ -8,9 +9,14 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
             <Link href="/" className="flex items-center">
-              <div className="text-2xl font-bold text-[#b0512e] font-jakarta">
-                Ed's Easy Meals
-              </div>
+              <Image
+                src="/logo.png"
+                alt="Ed's Easy Meals Logo"
+                width={180}
+                height={60}
+                className="h-12 w-auto"
+                priority
+              />
             </Link>
           </div>
           <div className="flex items-center gap-4">
