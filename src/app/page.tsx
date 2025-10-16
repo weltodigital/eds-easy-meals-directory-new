@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Clock, Users, ChefHat, Timer, Utensils } from 'lucide-react'
 import { createClient } from '@/lib/supabase'
-import SEOSchemaMarkup from '@/components/SEOSchemaMarkup'
 
 interface Recipe {
   id: string;
@@ -171,7 +170,6 @@ export default async function Home() {
 
   return (
     <div>
-      <SEOSchemaMarkup page="home" />
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
 
       {/* Hero Section with Background Image */}

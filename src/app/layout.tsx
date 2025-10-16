@@ -40,6 +40,9 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code',
   },
+  alternates: {
+    canonical: 'https://eds-easy-meals.vercel.app',
+  },
 }
 
 export default function RootLayout({

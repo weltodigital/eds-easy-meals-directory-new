@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Pilates Classes Near',
-  description: 'Terms of service for Pilates Classes Near - the terms and conditions for using our pilates studio directory.',
+  title: 'Terms of Service | Ed\'s Easy Meals',
+  description: 'Terms of service for Ed\'s Easy Meals - the terms and conditions for using our recipe directory.',
   robots: {
     index: true,
     follow: true,
@@ -35,8 +35,8 @@ export default function TermsOfServicePage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
               <p className="text-gray-700 mb-4">
-                Welcome to Pilates Classes Near ("we," "our," or "us"). These Terms of Service ("Terms") govern
-                your use of our website pilatesclassesnear.com (the "Service") operated by Pilates Classes Near.
+                Welcome to Ed's Easy Meals ("we," "our," or "us"). These Terms of Service ("Terms") govern
+                your use of our website edseasymealsdirectory.com (the "Service") operated by Ed's Easy Meals.
               </p>
               <p className="text-gray-700 mb-4">
                 By accessing or using our Service, you agree to be bound by these Terms. If you disagree with any
@@ -47,7 +47,7 @@ export default function TermsOfServicePage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Description of Service</h2>
               <p className="text-gray-700 mb-4">
-                Pilates Classes Near is a directory service that helps users find pilates studios and classes
+                Ed's Easy Meals is a recipe directory service that helps users find easy and delicious recipes
                 across the United Kingdom. We provide information about pilates studios, including contact details,
                 locations, class types, and other relevant information.
               </p>
