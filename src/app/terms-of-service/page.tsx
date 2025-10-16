@@ -36,7 +36,7 @@ export default function TermsOfServicePage() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
               <p className="text-gray-700 mb-4">
                 Welcome to Ed's Easy Meals ("we," "our," or "us"). These Terms of Service ("Terms") govern
-                your use of our website edseasymealsdirectory.com (the "Service") operated by Ed's Easy Meals.
+                your use of our website edseasymeals.com (the "Service") operated by Ed's Easy Meals.
               </p>
               <p className="text-gray-700 mb-4">
                 By accessing or using our Service, you agree to be bound by these Terms. If you disagree with any

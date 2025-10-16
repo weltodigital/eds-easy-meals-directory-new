@@ -35,7 +35,7 @@ export default function PrivacyPolicyPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Introduction</h2>
               <p className="text-gray-700 mb-4">
-                Welcome to Ed's Easy Meals ("we," "our," or "us"). We operate the website edseasymealsdirectory.com
+                Welcome to Ed's Easy Meals ("we," "our," or "us"). We operate the website edseasymeals.com
                 (the "Service"). This Privacy Policy explains how we collect, use, disclose, and safeguard your
                 information when you visit our website or use our services.
               </p>
