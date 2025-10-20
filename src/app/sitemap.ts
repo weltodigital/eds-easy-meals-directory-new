@@ -50,7 +50,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     if (recipes && recipes.length > 0) {
       recipes.forEach((recipe) => {
         sitemap.push({
-          url: `${baseUrl}/recipe/${recipe.slug}`,
+          url: `${baseUrl}/recipes/${recipe.slug}`,
           lastModified: recipe.updated_at ? new Date(recipe.updated_at) : currentDate,
           changeFrequency: 'weekly',
           priority: 0.8,

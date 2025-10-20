@@ -286,7 +286,7 @@ export default async function RecipePage({ params }: { params: Promise<{ slug: s
                 {recipe.categories.map((category) => (
                   <Link
                     key={category.id}
-                    href={`/categories/${category.slug}`}
+                    href={`/category/${category.slug}`}
                     className="inline-flex items-center px-4 py-2 bg-orange-100 text-orange-800 rounded-full hover:bg-orange-200 transition-colors font-medium text-sm"
                   >
                     {category.name.replace('Easy ', '').replace(' Recipes', '')}

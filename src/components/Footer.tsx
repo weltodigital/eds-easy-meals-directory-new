@@ -51,7 +51,7 @@ export default async function Footer() {
             <ul className="space-y-2 text-sm text-slate-400">
               {categories.slice(0, 6).map((category) => (
                 <li key={category.id}>
-                  <Link href={`/categories/${category.slug}`} className="hover:text-[#fec52b] transition-colors">
+                  <Link href={`/category/${category.slug}`} className="hover:text-[#fec52b] transition-colors">
                     {category.name}
                   </Link>
                 </li>

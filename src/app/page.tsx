@@ -273,7 +273,7 @@ export default async function Home() {
                           {recipe.categories.map((category) => (
                             <Link
                               key={category.id}
-                              href={`/categories/${category.slug}`}
+                              href={`/category/${category.slug}`}
                               className="inline-block px-2 py-1 text-xs bg-[#fec52b] text-black rounded-full hover:bg-[#e5b327] transition-colors"
                             >
                               {category.name.replace('Easy ', '').replace(' Recipes', '')}
@@ -321,7 +321,7 @@ export default async function Home() {
                   <div key={category.id} className="bg-white dark:bg-slate-800 rounded-lg p-6 border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-shadow">
                     <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4 border-b border-slate-200 dark:border-slate-700 pb-2">
                       <Link
-                        href={`/categories/${category.slug}`}
+                        href={`/category/${category.slug}`}
                         className="hover:text-[#b0512e] transition-colors"
                       >
                         {category.name}
@@ -331,7 +331,7 @@ export default async function Home() {
                       {category.description}
                     </p>
                     <Link
-                      href={`/categories/${category.slug}`}
+                      href={`/category/${category.slug}`}
                       className="text-[#b0512e] hover:text-[#8e4224] text-sm font-medium transition-colors inline-flex items-center gap-1"
                     >
                       View Recipes
@@ -354,7 +354,7 @@ export default async function Home() {
                   <div key={category.id} className="bg-white dark:bg-slate-800 rounded-lg p-6 border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-shadow">
                     <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4 border-b border-slate-200 dark:border-slate-700 pb-2">
                       <Link
-                        href={`/categories/${category.slug}`}
+                        href={`/category/${category.slug}`}
                         className="hover:text-[#b0512e] transition-colors"
                       >
                         {category.name}
@@ -364,7 +364,7 @@ export default async function Home() {
                       {category.description}
                     </p>
                     <Link
-                      href={`/categories/${category.slug}`}
+                      href={`/category/${category.slug}`}
                       className="text-[#b0512e] hover:text-[#8e4224] text-sm font-medium transition-colors inline-flex items-center gap-1"
                     >
                       View Recipes
@@ -387,7 +387,7 @@ export default async function Home() {
                   <div key={category.id} className="bg-white dark:bg-slate-800 rounded-lg p-6 border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-shadow">
                     <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4 border-b border-slate-200 dark:border-slate-700 pb-2">
                       <Link
-                        href={`/categories/${category.slug}`}
+                        href={`/category/${category.slug}`}
                         className="hover:text-[#b0512e] transition-colors"
                       >
                         {category.name}
@@ -397,7 +397,7 @@ export default async function Home() {
                       {category.description}
                     </p>
                     <Link
-                      href={`/categories/${category.slug}`}
+                      href={`/category/${category.slug}`}
                       className="text-[#b0512e] hover:text-[#8e4224] text-sm font-medium transition-colors inline-flex items-center gap-1"
                     >
                       View Recipes
@@ -420,7 +420,7 @@ export default async function Home() {
                   <div key={category.id} className="bg-white dark:bg-slate-800 rounded-lg p-6 border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-shadow">
                     <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4 border-b border-slate-200 dark:border-slate-700 pb-2">
                       <Link
-                        href={`/categories/${category.slug}`}
+                        href={`/category/${category.slug}`}
                         className="hover:text-[#b0512e] transition-colors"
                       >
                         {category.name}
@@ -430,7 +430,7 @@ export default async function Home() {
                       {category.description}
                     </p>
                     <Link
-                      href={`/categories/${category.slug}`}
+                      href={`/category/${category.slug}`}
                       className="text-[#b0512e] hover:text-[#8e4224] text-sm font-medium transition-colors inline-flex items-center gap-1"
                     >
                       View Recipes
@@ -453,7 +453,7 @@ export default async function Home() {
                   <div key={category.id} className="bg-white dark:bg-slate-800 rounded-lg p-6 border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-shadow">
                     <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4 border-b border-slate-200 dark:border-slate-700 pb-2">
                       <Link
-                        href={`/categories/${category.slug}`}
+                        href={`/category/${category.slug}`}
                         className="hover:text-[#b0512e] transition-colors"
                       >
                         {category.name}
@@ -463,7 +463,7 @@ export default async function Home() {
                       {category.description}
                     </p>
                     <Link
-                      href={`/categories/${category.slug}`}
+                      href={`/category/${category.slug}`}
                       className="text-[#b0512e] hover:text-[#8e4224] text-sm font-medium transition-colors inline-flex items-center gap-1"
                     >
                       View Recipes
@@ -486,7 +486,7 @@ export default async function Home() {
                   <div key={category.id} className="bg-white dark:bg-slate-800 rounded-lg p-6 border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-shadow">
                     <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4 border-b border-slate-200 dark:border-slate-700 pb-2">
                       <Link
-                        href={`/categories/${category.slug}`}
+                        href={`/category/${category.slug}`}
                         className="hover:text-[#b0512e] transition-colors"
                       >
                         {category.name}
@@ -496,7 +496,7 @@ export default async function Home() {
                       {category.description}
                     </p>
                     <Link
-                      href={`/categories/${category.slug}`}
+                      href={`/category/${category.slug}`}
                       className="text-[#b0512e] hover:text-[#8e4224] text-sm font-medium transition-colors inline-flex items-center gap-1"
                     >
                       View Recipes
@@ -519,7 +519,7 @@ export default async function Home() {
                   <div key={category.id} className="bg-white dark:bg-slate-800 rounded-lg p-6 border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-shadow">
                     <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4 border-b border-slate-200 dark:border-slate-700 pb-2">
                       <Link
-                        href={`/categories/${category.slug}`}
+                        href={`/category/${category.slug}`}
                         className="hover:text-[#b0512e] transition-colors"
                       >
                         {category.name}
@@ -529,7 +529,7 @@ export default async function Home() {
                       {category.description}
                     </p>
                     <Link
-                      href={`/categories/${category.slug}`}
+                      href={`/category/${category.slug}`}
                       className="text-[#b0512e] hover:text-[#8e4224] text-sm font-medium transition-colors inline-flex items-center gap-1"
                     >
                       View Recipes
